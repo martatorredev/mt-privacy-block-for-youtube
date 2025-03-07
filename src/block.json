@@ -1,0 +1,23 @@
+{
+    "apiVersion": 2,
+    "name": "mtdev/privacy-youtube-block",
+    "title": "Privacy YouTube Block",
+    "category": "embed",
+    "icon": "video-alt3",
+    "description": "Embed YouTube videos without tracking cookies.",
+    "keywords": ["youtube", "privacy", "gdpr"],
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "videoUrl": {
+            "type": "string",
+            "default": ""
+        },
+        "showPlaceholder": {
+            "type": "boolean",
+            "default": true
+        }
+    },
+    "editorScript": "file:./index.js"
+}
