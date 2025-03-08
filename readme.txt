@@ -1,7 +1,7 @@
 === MT Privacy Block for YouTube ===
 Contributors: martatorre
 Donate link: https://martatorre.dev
-Tags: youtube, video, embed block, nocookie, privacy, GDPR
+Tags: youtube, video, embed, embed block, nocookie, privacy, GDPR
 Requires at least: 6.3
 Tested up to: 6.7
 Stable tag: 1.0.0
@@ -9,22 +9,20 @@ Requires PHP: 7.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-A Gutenberg block for embedding YouTube videos without tracking cookies, enhancing privacy and ensuring GDPR compliance.
+A Gutenberg block for embedding YouTube videos without tracking cookies, enhancing privacy and ensuring GDPR compliance. No additional configuration required.
 
 == Description ==
 
 **MTDev Privacy Block for YouTube** allows you to embed YouTube videos in your WordPress site without tracking cookies by automatically switching to `youtube-nocookie.com`.
 
-With this plugin, you can improve your site's privacy while ensuring a seamless user experience.
+With this plugin, you can:
 
-= Key Features =
-
-✅ Embed YouTube videos using `youtube-nocookie.com` automatically.  
-✅ Fully integrated with the WordPress block editor (Gutenberg).  
-✅ Customizable video title, caption, and dimensions.  
-✅ Supports alignment options (left, center, right) directly from the editor.  
-✅ Lightweight and optimized for performance.  
-✅ Includes a function that clears oEmbed cache to ensure old embeds are updated to use `youtube-nocookie.com`.  
+✅ Improve privacy with `youtube-nocookie.com`.  
+✅ Embed videos with customizable titles, captions, and dimensions.  
+✅ Ensure old embeds are updated automatically with improved privacy.  
+✅ Seamlessly integrate with the WordPress block editor (Gutenberg).  
+✅ Enjoy a lightweight solution optimized for performance.  
+✅ No additional configuration required — install and use instantly.
 
 This plugin is perfect for those who want to improve privacy compliance (GDPR, CCPA) without compromising functionality.
 
@@ -65,6 +63,9 @@ Not in this version. Future updates may include lazy loading functionality.
 
 = Can I customize the video appearance? =  
 Yes, you can modify the video size, title, and caption directly from the block settings.
+
+= Is this plugin compatible with all browsers? =  
+Yes, this plugin is compatible with modern browsers that support iframe embeds.
 
 == Screenshots ==
 
