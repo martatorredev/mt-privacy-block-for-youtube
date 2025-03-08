@@ -50,3 +50,11 @@ function mtdev_privacy_youtube_enqueue_styles() {
     );
 }
 add_action('wp_enqueue_scripts', 'mtdev_privacy_youtube_enqueue_styles');
+
+// Clear oEmbed cache for previously embedded YouTube videos
+function mtdev_clear_oembed_cache() {
+    global $wpdb;
+    $wpdb->query("DELETE FROM $wpdb->postmeta WHERE meta_key LIKE '_oembed_%'");
+    $wpdb->query("DELETE FROM $wpdb->options WHERE option_name LIKE '_transient_%_oembed_%'");
+}
+register_activation_hook(__FILE__, 'mtdev_clear_oembed_cache');
