@@ -1,6 +1,15 @@
 # Node dependencies
 /node_modules/
-/build/
+/build/*
+!/build/block.json
+!/build/index.js
+!/build/index.asset.php
+
+# Source files (not needed in final plugin)
+# These are kept in the repo for development but shouldn't go to WP.org
+/src/
+/assets/js/
+/assets/css/editor.css
 
 # WordPress Core
 /wp-admin/
