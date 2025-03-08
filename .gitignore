@@ -1,9 +1,6 @@
 # Node dependencies
 /node_modules/
 /build/
-/src/
-/assets/js/
-/assets/css/editor.css
 
 # WordPress Core
 /wp-admin/
@@ -46,4 +43,3 @@ ehthumbs.db
 Desktop.ini
 .Spotlight-V100
 .Trashes
-
