@@ -1,7 +1,7 @@
 === MT Privacy Block for YouTube ===
 Contributors: martatorre
 Donate link: https://martatorre.dev
-Tags: youtube, video, embed, nocookie, privacy
+Tags: youtube, video, embed, privacy, GDPR
 Requires at least: 6.3
 Tested up to: 6.7
 Stable tag: 1.0.0
