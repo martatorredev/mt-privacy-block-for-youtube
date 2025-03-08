@@ -1,7 +1,7 @@
 === MT Privacy Block for YouTube ===
 Contributors: martatorre
 Donate link: https://martatorre.dev
-Tags: youtube, video, embed, embed block, nocookie, privacy, GDPR
+Tags: youtube, video, embed, nocookie, privacy
 Requires at least: 6.3
 Tested up to: 6.7
 Stable tag: 1.0.0
@@ -9,7 +9,7 @@ Requires PHP: 7.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-A Gutenberg block for embedding YouTube videos without tracking cookies, enhancing privacy and ensuring GDPR compliance. No additional configuration required.
+Embed YouTube videos without tracking cookies for improved privacy and GDPR compliance.
 
 == Description ==
 
