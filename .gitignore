@@ -5,12 +5,9 @@
 /assets/js/
 /assets/css/editor.css
 
-# WordPress core
+# WordPress Core
 /wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
+/wp-content/
 /wp-includes/
 /index.php
 /license.txt
@@ -18,12 +15,14 @@
 /wp-*.php
 /xmlrpc.php
 
-# Configuration
+# Configuration files
 wp-config.php
+*.env
+/.wp-env.json
 
 # Cache & Logs
 *.log
-/.wp-env.json
+/debug.log
 /.htaccess
 .DS_Store
 .idea/
@@ -35,3 +34,16 @@ wp-config.php
 # Generated files
 /webpack.config.js
 /package-lock.json
+
+# Backup files
+*.tmp
+*.old
+*.orig
+
+# System-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.Spotlight-V100
+.Trashes
+
