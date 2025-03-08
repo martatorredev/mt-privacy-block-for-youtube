@@ -65,7 +65,7 @@ Contributions are welcome!
 If you'd like to improve this plugin, feel free to **fork** the repo and submit a **pull request**.
 
 ### 📣 How to Report Issues
-If you find a bug or have a feature request, please open an issue on the [GitHub Issues page](https://github.com/martatorredev/mtdev-privacy-youtube-block/issues).
+If you find a bug or have a feature request, please open an issue on the [GitHub Issues page](https://github.com/martatorredev/mt-privacy-youtube-block/issues).
 
 ---
 
@@ -86,4 +86,4 @@ If you find this plugin useful, consider giving it a ⭐ on GitHub to show your 
 ---
 
 ## 🔗 WordPress.org
-Visit the official WordPress.org page: [MT Privacy Block for YouTube](https://wordpress.org/plugins/mtdev-privacy-youtube-block/)
+Visit the official WordPress.org page: [MT Privacy Block for YouTube](https://wordpress.org/plugins/mt-privacy-youtube-block/)
