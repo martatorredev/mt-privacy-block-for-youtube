@@ -16,11 +16,37 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-// Autoload classes.
+// Autoload class
 require_once plugin_dir_path(__FILE__) . 'includes/class-mtdev-privacy-youtube.php';
 
-// Initialize the plugin.
+// Plugin initialization
 function mtdev_privacy_youtube_init() {
     MTDev_Privacy_YouTube::get_instance();
 }
 add_action('plugins_loaded', 'mtdev_privacy_youtube_init');
+
+/**
+ * Register block assets
+ */
+function mtdev_privacy_youtube_register_block() {
+    register_block_type(__DIR__ . '/build');
+
+    // Editor-specific styles
+    wp_enqueue_style(
+        'mtdev-privacy-youtube-editor-style',
+        plugins_url('assets/css/editor.css', __FILE__),
+        array('wp-edit-blocks')
+    );
+}
+add_action('enqueue_block_editor_assets', 'mtdev_privacy_youtube_register_block');
+
+/**
+ * Enqueue frontend styles
+ */
+function mtdev_privacy_youtube_enqueue_styles() {
+    wp_enqueue_style(
+        'mtdev-privacy-youtube-style',
+        plugins_url('assets/css/style.css', __FILE__)
+    );
+}
+add_action('wp_enqueue_scripts', 'mtdev_privacy_youtube_enqueue_styles');
