@@ -2,7 +2,10 @@
 
 **A Gutenberg block for embedding YouTube videos without tracking cookies, enhancing privacy and ensuring GDPR compliance.**
 
-![MTDev Privacy Block for YouTube](https://martatorre.dev/wp-content/uploads/2024/03/mtdev-privacy-youtube.png)
+# 🔒 MTDev Privacy Block for YouTube
+
+**A Gutenberg block for embedding YouTube videos without tracking cookies, enhancing privacy and ensuring GDPR compliance.**
+
 
 ---
 
