@@ -37,7 +37,7 @@ This plugin can be installed directly from your WordPress admin panel.
 Or install it manually:
 
 1. Download the plugin from WordPress.org.
-2. Unzip the file and upload the folder `mtdev-privacy-youtube-block` to your `/wp-content/plugins/` directory.
+2. Unzip the file and upload the folder `mt-privacy-youtube-block` to your `/wp-content/plugins/` directory.
 3. Go to **Plugins → Installed Plugins** and activate **MTDev Privacy Block for YouTube**.
 
 == Usage ==
