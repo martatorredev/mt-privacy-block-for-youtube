@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name: MTDev Privacy Block for YouTube
+ * Plugin Name: MT Privacy Block for YouTube
  * Description: A Gutenberg block for embedding YouTube videos without tracking cookies, enhancing privacy and GDPR compliance.
  * Version: 1.0.0
  * Author: Marta Torre
  * Author URI: https://martatorre.dev
- * License: GPL-2.0-or-later
- * Text Domain: mtdev-privacy-block-for-youtube
+ * License: GPLv3
+ * Text Domain: mt-privacy-block-for-youtube
  *
  * @package MTDev_Privacy_Block_For_YouTube
  */
@@ -17,7 +17,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Autoload class
-require_once plugin_dir_path(__FILE__) . 'includes/class-mtdev-privacy-youtube.php';
+require_once plugin_dir_path(__FILE__) . 'includes/class-mt-privacy-youtube.php';
 
 // Plugin initialization
 function mtdev_privacy_youtube_init() {
@@ -33,7 +33,7 @@ function mtdev_privacy_youtube_register_block() {
 
     // Editor-specific styles
     wp_enqueue_style(
-        'mtdev-privacy-youtube-editor-style',
+        'mt-privacy-youtube-editor-style',
         plugins_url('assets/css/editor.css', __FILE__),
         array('wp-edit-blocks')
     );
