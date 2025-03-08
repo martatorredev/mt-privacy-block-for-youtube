@@ -1,7 +1,6 @@
-# 🔒 MT Privacy Block for YouTube
+# 🛡️ MT Privacy Block for YouTube
 
-**A Gutenberg block for embedding YouTube videos without tracking cookies, enhancing privacy and ensuring GDPR compliance.**
-
+**A Gutenberg block for embedding YouTube videos without tracking cookies, enhancing privacy and ensuring GDPR compliance. No additional configuration required.**
 
 ---
 
@@ -11,6 +10,8 @@
 ✅ Customizable video title, caption, and dimensions.  
 ✅ Supports alignment options (left, center, right) directly from the editor.  
 ✅ Lightweight and optimized for performance.  
+✅ Ensures compliance with GDPR and CCPA for improved privacy.  
+✅ Automatically updates old embeds to use `youtube-nocookie.com` via oEmbed cache clearing.
 
 ---
 
@@ -40,7 +41,7 @@
 The `youtube-nocookie.com` domain prevents YouTube from setting cookies on your visitors' browsers, improving privacy and ensuring GDPR compliance.
 
 ### ❓ Will this update my old YouTube embeds automatically?
-No, this plugin only applies to new YouTube videos added via the block. Old embeds won't be modified.
+✅ **Yes**. The plugin includes a cache-clearing function that updates your previously embedded YouTube videos to use `youtube-nocookie.com`.
 
 ### ❓ Can I use this plugin with the Classic Editor?
 No, this plugin is designed to work exclusively with the **WordPress Block Editor (Gutenberg)**.
@@ -61,7 +62,10 @@ Yes, you can modify the video size, title, and caption directly from the block s
 
 ## 🛠️ Contributing
 Contributions are welcome!  
-If you'd like to improve this plugin, feel free to **fork** the repo and submit a **pull request**.  
+If you'd like to improve this plugin, feel free to **fork** the repo and submit a **pull request**.
+
+### 📣 How to Report Issues
+If you find a bug or have a feature request, please open an issue on the [GitHub Issues page](https://github.com/martatorredev/mtdev-privacy-youtube-block/issues).
 
 ---
 
@@ -80,3 +84,6 @@ This plugin is licensed under the **GPLv3**.
 If you find this plugin useful, consider giving it a ⭐ on GitHub to show your support!
 
 ---
+
+## 🔗 WordPress.org
+Visit the official WordPress.org page: [MT Privacy Block for YouTube](https://wordpress.org/plugins/mtdev-privacy-youtube-block/)
