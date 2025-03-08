@@ -5,9 +5,13 @@
 /assets/js/
 /assets/css/editor.css
 
-# WordPress Core
+# WordPress Core (No se sube nada del core)
+!/wp-content/plugins/   # Permite solo la carpeta del plugin
 /wp-admin/
-/wp-content/
+/wp-content/index.php
+/wp-content/languages/
+/wp-content/plugins/index.php
+/wp-content/themes/index.php
 /wp-includes/
 /index.php
 /license.txt
@@ -46,3 +50,8 @@ ehthumbs.db
 Desktop.ini
 .Spotlight-V100
 .Trashes
+
+# Other
+*.zip
+*.tar.gz
+*.gz
